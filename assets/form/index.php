@@ -45,8 +45,8 @@
         <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
         <!-- Main CSS File -->
-    <link rel="stylesheet" href="./style.css">
-</head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
 
 <body>
     <div class="container">

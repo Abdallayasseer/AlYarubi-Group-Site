@@ -1,6 +1,5 @@
-
 document.addEventListener("DOMContentLoaded", () => {
-    function createStars(containerId, count, size) {
+  function createStars(containerId, count, size) {
     const container = document.getElementById(containerId);
     for (let i = 0; i < count; i++) {
       const star = document.createElement("span");

@@ -6,7 +6,7 @@ use PHPMailer\PHPMailer\Exception;
 require 'vendor/autoload.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-  
+
     $fullName    = htmlspecialchars(trim($_POST['fullName']));
     $phone       = htmlspecialchars(trim($_POST['phoneNumber']));
     $email       = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $quantity    = intval($_POST['quantity'] ?? 1);
     $notes       = htmlspecialchars(trim($_POST['notes']));
 
-    
+
     if (!filter_var($email, FILTER_VALIDATE_EMAIL) || $quantity < 1) {
         header('Location: order_error.php');
         exit;
@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $mail = new PHPMailer(true);
     try {
-       
+
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;

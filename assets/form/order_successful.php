@@ -45,52 +45,52 @@
         <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
         <!-- Main CSS -->
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f7fc;
-            color: #333;
-            text-align: center;
-            padding: 50px;
-        }
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                background-color: #f4f7fc;
+                color: #333;
+                text-align: center;
+                padding: 50px;
+            }
 
-        .container {
-            background-color: #fff;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
-            margin: auto;
-        }
+            .container {
+                background-color: #fff;
+                padding: 40px;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                max-width: 600px;
+                margin: auto;
+            }
 
-        h1 {
-            font-size: 2rem;
-            color: #4CAF50;
-            margin-bottom: 20px;
-        }
+            h1 {
+                font-size: 2rem;
+                color: #4CAF50;
+                margin-bottom: 20px;
+            }
 
-        p {
-            font-size: 1.2rem;
-            color: #555;
-        }
+            p {
+                font-size: 1.2rem;
+                color: #555;
+            }
 
-        .btn {
-            background-color: #4CAF50;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            text-decoration: none;
-            font-size: 1rem;
-            margin-top: 20px;
-            display: inline-block;
-        }
+            .btn {
+                background-color: #4CAF50;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                text-decoration: none;
+                font-size: 1rem;
+                margin-top: 20px;
+                display: inline-block;
+            }
 
-        .btn:hover {
-            background-color: #45a049;
-        }
-    </style>
-</head>
+            .btn:hover {
+                background-color: #45a049;
+            }
+        </style>
+    </head>
 
 <body>
 
