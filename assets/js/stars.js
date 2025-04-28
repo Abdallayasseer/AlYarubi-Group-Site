@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  createStars("stars", 1000, 1);
-  createStars("stars2", 500, 2);
-  createStars("stars3", 200, 3);
+  createStars("stars", 100, 1);
+  createStars("stars2", 50, 2);
+  createStars("stars3", 20, 3);
 });
